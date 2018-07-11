@@ -5,12 +5,12 @@ def mothers_day
 end 
 
 def mothers_day(name)
-  "Happy Mothers Day, #{name}, I hope you have a great Day!"
+  "Happy Mother's Day, #{name}, I hope you have a great Day!"
 end 
 puts mothers_day("Rachel")
 
 def mothers_day(name="Mom")
- return "Happy Mothers Day, #{name}!"
+ return "Happy Mother's Day, #{name}!"
 end
 
 mothers_day("Beyonce")
